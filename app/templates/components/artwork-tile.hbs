@@ -1,0 +1,8 @@
+<li>
+  {{artwork.artist}}'s {{artwork.title}} from {{artwork.location}}
+  {{#if isImageShowing}}
+    <p><img src={{artwork.image}} alt={{artwork.type}} {{action 'imageHide'}}></p>
+  {{else}}
+    <button {{action 'imageShow'}}>Show Image</button>
+  {{/if}}
+</li>

@@ -1,0 +1,11 @@
+<h1> Welcome </h1>
+<p> Blah Blah Blah </p>
+
+<ul>
+  {{#each model as |artwork|}}
+    {{artwork-tile artwork=artwork}}
+  {{/each}}
+</ul>
+
+{{#link-to 'about'}}About Us{{/link-to}}
+{{#link-to 'contact'}}Contact Us{{/link-to}}

@@ -1,0 +1,23 @@
+{ "artworks": [{
+    "artist": "Pablo Picasso",
+    "title": "Guernica",
+    "location": "Spain",
+    "type": "Painting",
+    "date": 1937,
+    "image": "https://upload.wikimedia.org/wikipedia/en/7/74/PicassoGuernica.jpg"
+  }, {
+    "artist": "Imhotep",
+    "title": "Pyramid of Djoser",
+    "location": "Saqqara, Egypt",
+    "type": "Monument",
+    "date": 2611,
+    "image": "https://en.wikipedia.org/wiki/Imhotep#/media/File:Sakkara_01.jpg"
+  }, {
+    "artist": "Narmer",
+    "title": "Palette of Narmer",
+    "location": "Cairo, Egypt",
+    "type": "Artifcat",
+    "date": 3100,
+    "image": "https://en.wikipedia.org/wiki/Narmer_Palette#/media/File:Narmer_Palette.jpg"
+    }]
+  }
