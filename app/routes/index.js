@@ -7,6 +7,12 @@ export default Ember.Route.extend({
   },
 
   actions: {
+    saveArtwork3(params) {
+      var newArtwork = this.store.createRecord('artwork', params);
+      newArtwork.save();
+      this.transitionTo('index');
+    },
+
     destroyArtwork(artwork) {
       artwork.destroyRecord();
       this.transitionTo('index');
