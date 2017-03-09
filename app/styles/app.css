@@ -15,4 +15,8 @@ p {
 
 .footer {
   text-align: center;
+  background-color: #7753A2;
+  color: #A98325;
+  border-radius: 10px;
+  border-color: purple;
 }

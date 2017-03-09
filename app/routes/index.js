@@ -13,6 +13,16 @@ export default Ember.Route.extend({
       this.transitionTo('index');
     },
 
+    update(artwork, params) {
+      Object.keys(params).forEach(function(key) {
+        if(params[key]!==undefined) {
+          artwork.set(key,params[key]);
+        }
+      });
+      artwork.save();
+      this.transitionTo('index');
+    },
+
     destroyArtwork(artwork) {
       artwork.destroyRecord();
       this.transitionTo('index');

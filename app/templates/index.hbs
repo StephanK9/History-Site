@@ -1,11 +1,10 @@
 <h1> Welcome </h1>
 <p>History Site</p>
 
-<div class="container">
+
   {{#each model as |artwork|}}
-    {{artwork-tile artwork=artwork destroyArtwork="destroyArtwork"}}
+    {{artwork-tile artwork=artwork update="update" destroyArtwork="destroyArtwork"}}
     {{/each}}
-</div>
 
 <br>
 <br>
